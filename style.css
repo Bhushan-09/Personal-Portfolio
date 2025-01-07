@@ -243,7 +243,9 @@ section{
     font-size: 50px;
 }
 .main-links:hover{
-    color: rgba(255, 0, 0, 0.852);
+    background: linear-gradient(to right, #833ab4,#fd1d1d,#fcb045);
+    background-clip: text;
+    color: transparent;
 }
 
 #contact{
@@ -267,13 +269,16 @@ form .input-box{
 }
 form input{
     font-size: 1.3em;
-    padding: 1em 5em;
+    padding: 0.8em 4em;
     border-radius: 0.5em;
     border: none;
     outline: none;
 }
 form input:focus{
-background: rgb(229, 229, 229);
+    background: rgba(255, 255, 255, 0.795);
+}
+#contact button{
+    color: black;
 }
 
 footer{
